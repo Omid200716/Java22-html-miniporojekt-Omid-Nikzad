@@ -1,0 +1,84 @@
+body{
+ 
+    background-color: aliceblue;
+    color: #333;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.5em;
+    background-image: url(../image/background2.jpg);
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+    margin-top: px;
+    padding-top: 5%;
+  }
+
+
+
+.my-first-class h1 {
+  color: black;
+  font-size: xx-large;
+  color: rgb(178, 195, 90);
+}
+.my-first-class p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+ font-size: medium;
+}
+.my-first-class,.movie,.total{
+
+  color: white;
+  border: rgb(130, 126, 126) 2px solid;
+  padding: 5%;
+  border-radius: 2%;
+
+
+  margin: auto
+}
+
+.img 
+{
+    margin-top: 0%;
+    margin: 5% 0%;
+    width: 100%;
+    height: 700px;
+    border-radius: 6%;
+    
+
+    position: relative;
+
+    background-image: url(../image/profil.jpg);
+    background-origin: border-box 20%;
+    background-repeat: no-repeat;
+    background-position: center ;
+   
+
+}
+a:hover,.link{
+    text-decoration: underline;
+    color: white
+    
+      }
+      a:active,.link{
+        color: rgb(230, 222, 222);
+      }
+     
+      .link{
+        color: rgb(209, 209, 231);
+      margin-left: 20px;
+      margin-right: 20px;
+
+    
+
+    }
+    a{
+        color: rgb(145, 156, 79);
+        margin: 20px 20px;
+    }
+   
+.total{
+    margin-top: 100px;
+}
+.my-first-class{
+    margin-top: 100px;
+}
